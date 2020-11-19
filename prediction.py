@@ -14,8 +14,8 @@ def prediction(img_file):
     segment_image.segmentImage(img_file, output_image_name = "output_images/out.jpg")
     out = plt.imread("output_images/out.jpg", 0)
 
-    # performing the segmentation on the input image with overlay
-    segment_image.segmentImage(img_file, output_image_name = "output_images/out_overlay.jpg", overlay = True)
-    out_box = plt.imread("output_images/out_box.jpg")
+    # performing the segmentation on the input image with bounding boxes
+    segment_image.segmentImage(img_file, output_image_name = "output_images/out_box.jpg", show_bboxes = True)
+    out_box = plt.imread("output_images/out_box.jpg", 0)
 
     return out, out_box
