@@ -18,4 +18,4 @@ You can now see the website up and running.
 
 
 ## Classes Segmented by the model
-![img]()
+![img](coco_dataset.png)
