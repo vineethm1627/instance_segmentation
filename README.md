@@ -16,6 +16,10 @@ Here, Different instances of the same object are segmented with the different co
  
 You can now see the website up and running.
 
+## Demo Snapshots
+![demo_1](demo_1.png)
+![demo_2](demo_2.png)
+
 
 ## Classes Segmented by the model
 ![img](coco_dataset.png)
